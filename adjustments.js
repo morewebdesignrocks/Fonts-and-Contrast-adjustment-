@@ -12,6 +12,10 @@
 	var mediumSize = 'font-size: 1.3em;';
 	var largeSize = 'font-size: 1.5em';
 	
+	//Set variable for item to be adjusted
+	var p = document.getElementsByTagName('p');
+	var a = document.getElementsByTagName('a');
+	
 	//Create event listeners
 	rFont.addEventListener('click', regularFont);
 	mFont.addEventListener('click', mediumFont);
@@ -20,10 +24,6 @@
 	mContrast.addEventListener('click', moreContrast);
 	hContrast.addEventListener('click', mostContrast);
   
-	//Set variable for item to be adjusted
-	var p = document.getElementsByTagName('p');
-	var a = document.getElementsByTagName('a');
-	
 	//Function to genereate change for all items
 	function regularFont() {	
   		var i;
