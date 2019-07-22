@@ -20,7 +20,7 @@
 	var a = document.getElementsByTagName('a');
 	
 	//Function to genereate change for all items
-	function regularfont() {	
+	function regularFont() {	
   		var i;
   		for (i = 0; i < p.length; i++) {
     		p[i].setAttribute('style', 'font-size: 1em;');
