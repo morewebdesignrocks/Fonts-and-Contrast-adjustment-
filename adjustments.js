@@ -15,4 +15,10 @@
 	mContrast.addEventListener('click', moreContrast);
 	hContrast.addEventListener('click', mostContrast);
   
+	//Set variable for item to be adjusted
+	var p = document.getElementsByTagName('p');
+	var a = document.getElementsByTagName('a');
+	
+	
+	
 })();
