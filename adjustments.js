@@ -7,6 +7,11 @@
 	var mContrast = document.getElementById('mediumContrast');
 	var hContrast = document.getElementById('highContrast');
   
+	//Store variable for size changes
+	var regularSize = 'font-size: 1em';
+	var mediumSize = 'font-size: 1.3em;';
+	var largeSize = 'font-size: 1.5em';
+	
 	//Create event listeners
 	rFont.addEventListener('click', regularFont);
 	mFont.addEventListener('click', mediumFont);
